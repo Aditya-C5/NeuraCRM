@@ -1,7 +1,6 @@
 # 🧠 NeuraCRM  
 **Conversational intelligence meets automated CRM workflows.**
 
----
 
 ## ✨ Inspiration
 
@@ -14,7 +13,6 @@ CRM systems were designed to keep teams organized, but in practice, they’re of
 
 Built during a hackathon, but envisioned for a world where AI doesn’t just observe—it participates.
 
----
 
 ## 🧩 What It Does
 
@@ -35,7 +33,6 @@ NeuraCRM brings structure and intelligence to every customer-facing conversation
 - **Flexible Integration Model**  
   While Jira and Gmail are supported out-of-the-box, the backend is designed for quick extension to Slack, Trello, knowledge bases, and internal tools.
 
----
 
 ## ⚙️ How It Works
 
@@ -47,7 +44,6 @@ Under the hood, NeuraCRM brings together real-time streams, intelligent decision
 - **Tool Use & Execution** — LangChain Agents manage structured actions, converting user intent into real API calls.
 - **Real-Time Event Architecture** — A Flask + Socket.IO backend ensures low-latency bi-directional communication between frontend and backend.
 
----
 
 ## 🧑‍💼 Built For
 
@@ -65,7 +61,6 @@ NeuraCRM supports a range of roles and workflows:
 - **AI Tool Builders**  
   Learn how to chain real-time transcription with multi-modal actions. This is a working prototype of what's possible at the frontier of CRM + AI.
 
----
 
 ## 🛠️ Built With
 
@@ -76,7 +71,6 @@ NeuraCRM supports a range of roles and workflows:
 - **Flask + Socket.IO** — Event-driven backend for low-latency data flow.
 - **Jira & Gmail APIs** — Task creation, email follow-ups, and assistant-driven action.
 
----
 
 ## 💡 Why This Matters
 
@@ -86,7 +80,6 @@ It’s a concept for CRM systems that don’t lag behind the conversation. That 
 
 In a future where every team has its own co-pilot, tools like this will be the norm—not the novelty.
 
----
 
 ## 🎓 What We Learned
 
@@ -95,7 +88,6 @@ In a future where every team has its own co-pilot, tools like this will be the n
 - **Timing is UX** — Being responsive without being premature was one of the biggest challenges in handling real-time data streams.
 - **Agents are underrated** — Once properly structured, LangChain’s agents opened doors to smooth integrations and low-code expansions.
 
----
 
 ## 🚀 Running NeuraCRM (Modular Version)
 
@@ -111,7 +103,6 @@ In a future where every team has its own co-pilot, tools like this will be the n
 - Azure Speech API Key + Region
 - Jira and Gmail developer credentials (optional)
 
----
 
 ### 🛠 Backend Setup
 
