@@ -1,0 +1,16 @@
+flask
+flask-cors
+flask-socketio
+python-dotenv
+requests
+pydantic
+langchain
+langchain-openai
+langchain-community
+langgraph
+neo4j
+langchain-neo4j
+openai
+langchain-experimental
+pandas
+tabulate

@@ -1,0 +1,16 @@
+[
+    {
+        "database_name": "Customer DataBase",
+        "database_description": "Customer Information/details",
+        "columns": "Customer ID, Customer Name, Customer Email, Customer Phone, Customer Address, Gender, Age",
+        "database_path": "./csv_db/customer_db.csv",
+        "date": "29-03-2025"
+    },
+    {
+        "database_name": "Product DataBase",
+        "database_description": "Product Basic Information",
+        "columns": "Product ID, Product Name, Product Price, Product Category",
+        "database_path": "./csv_db/product_db.csv",
+        "date": "29-03-2025"
+    }
+]

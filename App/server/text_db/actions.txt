@@ -1,0 +1,114 @@
+[
+    {
+        "action_type": "query_database",
+        "action_name": "Customer Information Query",
+        "action_description": "[IN: Name/ID] Get detailed customer information including contact details and demographics",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Customer Name", "Customer ID"],
+        "output": ["Customer Name", "Customer Email", "Customer Phone", "Customer Address", "Gender", "Age"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Product Details Query",
+        "action_description": "[IN: Product Name/ID] Get product information including price and category",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Product Name", "Product ID"],
+        "output": ["Product Name", "Product Price", "Product Category"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Store Location Query",
+        "action_description": "[IN: Shop Name/City/State] Get shop outlet information and location details",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Shop Name", "City", "State"],
+        "output": ["Shop Name", "Shop Type", "Shop Size", "Address", "Country", "City", "State"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Sales Transaction Query",
+        "action_description": "[IN: Invoice/Customer ID/Date] Get detailed sales transaction information including products and pricing",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Invoice ID", "Customer ID", "Date"],
+        "output": ["Invoice ID", "Product ID", "Unit Price", "Quantity", "Total Price", "Payment", "Date", "Time"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Sales Analytics",
+        "action_description": "[IN: Date Range, Shop ID] Get sales analytics and statistics for a specific time period",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Start Date", "End Date", "Shop ID"],
+        "output": ["Total Sales", "Number of Transactions", "Average Transaction Value", "Most Sold Products"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Customer Purchase History",
+        "action_description": "[IN: Customer Name/ID] Get a customer's complete purchase history and preferences",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Customer ID", "Customer Name"],
+        "output": ["Purchase Dates", "Products Bought", "Total Spent", "Preferred Payment Method", "Frequent Store"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Product Category Analysis",
+        "action_description": "[IN: Category Name] Get analysis of products and sales within a specific category",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Product Category"],
+        "output": ["Total Products", "Average Price", "Best Selling Items", "Total Category Sales"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Store Performance",
+        "action_description": "[IN: Shop ID/Name, Date Range] Get detailed performance metrics for a specific store",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": ["Shop ID", "Shop Name", "Start Date", "End Date"],
+        "output": ["Daily Sales", "Customer Count", "Average Transaction Value", "Peak Hours", "Top Products"],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Sales Query",
+        "action_description": "Ask about a specific Sale and sell price, with a customer name.",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": [
+            "Customer Name"
+        ],
+        "output": [
+            "Invoice ID",
+            "Product Name",
+            "Unit Price",
+            "Quantity",
+            "Total price"
+        ],
+        "api_auth": {}
+    },
+    {
+        "action_type": "query_database",
+        "action_name": "Ask for a Customer's Age",
+        "action_description": "Give Name and Ask for Age",
+        "api_endpoint": "",
+        "api_service": "",
+        "input": [
+            "Name"
+        ],
+        "output": [
+            "Age"
+        ],
+        "api_auth": {}
+    }
+]
